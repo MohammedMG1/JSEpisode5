@@ -44,11 +44,7 @@ class Point {
 class Wallet {
   // implement Wallet!
   constructor(money = 0) {
-    if (money) {
-      this.money = money;
-    } else {
-      this.money = 0;
-    }
+    this.money = money;
   }
 
   credit = amount => {
